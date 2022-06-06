@@ -3,6 +3,7 @@
     --clr-primary: #1f2937;
     --clr-accent: #3882F6;
     --clr-grey: #e5e7eb;
+    --clr-neutral: #fff;
 
     /* font size */
     /* 16px */
@@ -10,22 +11,63 @@
     /* 24px */
     --fs-600: 1.5rem;
     /* 36px */
-    --fs-600: 2.25rem;
+    --fs-700: 2.25rem;
     /* 48px */
-    --fs-600: 3rem;
+    --fs-800: 3rem;
 
     /* font family */
     --ff-sans: 'Roboto', sans-serif;
 
     /* font weights */
+    --fw-300: 300;
     --fw-400: 400;
     --fw-900: 900;
     
 }
 
 /* reset here */
+body {
+    min-height: 100vh;
+    font-family: var(--ff-sans);
+    color: var(--clr-neutral);
+    background-color: var(--clr-primary);
+}
+
 
 /* typography */
+    .fs-600 {
+        font-size: var(--fs-600);
+    }
+    .fs-700 {
+        font-size: var(--fs-700);
+    }
+    .fs-800 {
+        font-size: var(--fs-800);
+    }
+
+    .fw-300 {
+        font-weight: var(--fw-300);
+    }
+    .fw-900 {
+        font-weight: var(--fw-900);
+    }
+
+    .quote {
+        font-weight: var(--fw-300);
+        font-style: italic;
+    }
 
 /* colors */
-    
+
+.fc-primary { color: var(--clr-primary); }
+.fc-neutral{ color: var(--clr-neutral); }
+
+.bg-neutral {
+    background-color: var(--clr-neutral);
+}
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+.bg-grey {
+    background-color: var(--clr-grey);
+}
