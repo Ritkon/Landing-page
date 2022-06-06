@@ -1,0 +1,31 @@
+:root {
+    /* color */
+    --clr-primary: #1f2937;
+    --clr-accent: #3882F6;
+    --clr-grey: #e5e7eb;
+
+    /* font size */
+    /* 16px */
+    --fs-400: 1.125rem; 
+    /* 24px */
+    --fs-600: 1.5rem;
+    /* 36px */
+    --fs-600: 2.25rem;
+    /* 48px */
+    --fs-600: 3rem;
+
+    /* font family */
+    --ff-sans: 'Roboto', sans-serif;
+
+    /* font weights */
+    --fw-400: 400;
+    --fw-900: 900;
+    
+}
+
+/* reset here */
+
+/* typography */
+
+/* colors */
+    
