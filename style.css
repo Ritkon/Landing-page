@@ -28,6 +28,7 @@
 /* reset here */
 body {
     min-height: 100vh;
+    margin: 0;
     font-family: var(--ff-sans);
     color: var(--clr-neutral);
     background-color: var(--clr-primary);
@@ -62,6 +63,9 @@ body {
 .fc-primary { color: var(--clr-primary); }
 .fc-neutral{ color: var(--clr-neutral); }
 
+.bg-primary {
+    background-color: var(--clr-primary);
+}
 .bg-neutral {
     background-color: var(--clr-neutral);
 }
@@ -70,4 +74,20 @@ body {
 }
 .bg-grey {
     background-color: var(--clr-grey);
+}
+
+/* components */
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-400);
+}
+footer {
+    margin-top: auto;
 }
